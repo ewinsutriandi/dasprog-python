@@ -1,6 +1,9 @@
 '''
 For digunakan untuk melakukan eksekusi kode secara berulang
-berdasarkan urutan nilai tertentu
+berdasarkan urutan nilai tertentu.
+Urutan nilai tersebut didapatkan dari:
+1. Fungsi range
+2. Struktur data sequence, misal: list
 '''
 for i in range(3):
     print("Belajar perulangan")
