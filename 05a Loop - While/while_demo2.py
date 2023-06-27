@@ -1,3 +1,6 @@
+'''
+While Loop yang berhenti karena kondisi tertentu tercapai (tanpa intervensi user)
+'''
 bil = 0
 
 while bil < 5:
