@@ -23,6 +23,7 @@ for i in range(1,b2):
 print(f"faktor dari {b1}: {faktor_b1}")
 print(f"faktor dari {b2}: {faktor_b2}")
 
+# Cari FPB
 for f in faktor_b1:
     if f in faktor_b2: # faktor persekutuan
         fpb = f # di akhir loop akan terisi FPB karena loop dari kecil ke besar
