@@ -12,11 +12,11 @@ b2 = int(input("Bil 2: "))
 faktor_b1 = []
 faktor_b2 = []
 
-for i in range(1,b1):
+for i in range(1,b1+1):
     if b1 % i == 0:
         faktor_b1.append(i)
 
-for i in range(1,b2):
+for i in range(1,b2+1):
     if b2 % i == 0:
         faktor_b2.append(i)
 
