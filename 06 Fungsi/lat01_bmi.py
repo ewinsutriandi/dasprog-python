@@ -3,7 +3,7 @@ Body Mass Index (indeks massa tubuh), atau BMI dihitung dengan rumus sebagai ber
 BMI = bb / tb2 
 bb: berat badan dalam satuan kilogram
 tb: tinggi badan dalam satuan meter
-Buatlah sebuah program yang menerima input nama, 
+Buatlah sebuah program yang menerima input 
 tinggi badan dalam satuan cm, dan berat badan seseorang dalam satuan kg.
 Hitung BMI dan klasifikasikan jenis badan orang dimaksud,
 dimana
@@ -33,8 +33,6 @@ def kateg_bmi(bmi):
 
 bb = int(input("Berat badan?: "))
 tb = int(input("Tinggi badan?: "))
-
 bmi = htg_bmi(bb,tb)
 jenis_badan = kateg_bmi(bmi)
-
 print(f" BMI: {bmi}, jenis {jenis_badan}")
