@@ -10,3 +10,5 @@ for s in siswa:
     print(f"{s['nama']} memiliki tinggi {s['tinggi']} cm, dan berat {s['berat']} kg")
 
     
+
+    

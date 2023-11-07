@@ -9,7 +9,8 @@ mhs = {
     "nim" : "1234567",
     "nama" : "Asep Davidson",
     "prodi" : "Teknik Informatika",
-    "thn masuk" : 2021
+    "thn masuk" : 2021,
+    "cuti" : False
 }
 
 proglanj = {
@@ -32,9 +33,11 @@ print(mhs)
 
 # loop
 for k in mhs:
-    print(k,mhs[k])
+    print(k,":",mhs[k])
 
 for k,v in mhs.items():
     print(k,v)
+
+    
 
     

@@ -1,0 +1,458 @@
+{
+    "1": {
+        "nama": "Al-Fatihah",
+        "arti_nama": "Pembukaan"
+    },
+    "2": {
+        "nama": "Al-Baqarah",
+        "arti_nama": "Sapi Betina"
+    },
+    "3": {
+        "nama": "Ali 'Imran",
+        "arti_nama": "Keluarga 'Imran"
+    },
+    "4": {
+        "nama": "An-Nisa'",
+        "arti_nama": "Wanita"
+    },
+    "5": {
+        "nama": "Al-Ma'idah",
+        "arti_nama": "Jamuan (hidangan makanan)"
+    },
+    "6": {
+        "nama": "Al-An'am",
+        "arti_nama": "Hewan Ternak"
+    },
+    "7": {
+        "nama": "Al-A\u2019raf",
+        "arti_nama": "Tempat yang tertinggi"
+    },
+    "8": {
+        "nama": "Al-Anfal",
+        "arti_nama": "Harta rampasan perang"
+    },
+    "9": {
+        "nama": "At-Taubah",
+        "arti_nama": "Pengampunan"
+    },
+    "10": {
+        "nama": "Yunus",
+        "arti_nama": "Nabi Yunus"
+    },
+    "11": {
+        "nama": "Hud",
+        "arti_nama": "Nabi Hud"
+    },
+    "12": {
+        "nama": "Yusuf",
+        "arti_nama": "Nabi Yusuf"
+    },
+    "13": {
+        "nama": "Ar-Ra\u2019d",
+        "arti_nama": "Guruh (petir)"
+    },
+    "14": {
+        "nama": "Ibrahim",
+        "arti_nama": "Nabi Ibrahim"
+    },
+    "15": {
+        "nama": "Al-Hijr",
+        "arti_nama": "Gunung Al Hijr"
+    },
+    "16": {
+        "nama": "An-Nahl",
+        "arti_nama": "Lebah"
+    },
+    "17": {
+        "nama": "Al-Isra'",
+        "arti_nama": "Perjalanan Malam"
+    },
+    "18": {
+        "nama": "Al-Kahf",
+        "arti_nama": "Penghuni-penghuni Gua"
+    },
+    "19": {
+        "nama": "Maryam",
+        "arti_nama": "Maryam (Maria)"
+    },
+    "20": {
+        "nama": "Ta Ha",
+        "arti_nama": "Ta Ha"
+    },
+    "21": {
+        "nama": "Al-Anbiya",
+        "arti_nama": "Nabi-Nabi"
+    },
+    "22": {
+        "nama": "Al-Hajj",
+        "arti_nama": "Haji"
+    },
+    "23": {
+        "nama": "Al-Mu\u2019minun",
+        "arti_nama": "Orang-orang mukmin"
+    },
+    "24": {
+        "nama": "An-Nur",
+        "arti_nama": "Cahaya"
+    },
+    "25": {
+        "nama": "Al-Furqan",
+        "arti_nama": "Pembeda"
+    },
+    "26": {
+        "nama": "Asy-Syu'ara'",
+        "arti_nama": "Penyair"
+    },
+    "27": {
+        "nama": "An-Naml",
+        "arti_nama": "Semut"
+    },
+    "28": {
+        "nama": "Al-Qasas",
+        "arti_nama": "Kisah"
+    },
+    "29": {
+        "nama": "Al-'Ankabut",
+        "arti_nama": "Laba-laba"
+    },
+    "30": {
+        "nama": "Ar-Rum",
+        "arti_nama": "Bangsa Romawi"
+    },
+    "31": {
+        "nama": "Luqman",
+        "arti_nama": "Keluarga Luqman"
+    },
+    "32": {
+        "nama": "As-Sajdah",
+        "arti_nama": "Sajdah"
+    },
+    "33": {
+        "nama": "Al-Ahzab",
+        "arti_nama": "Golongan-Golongan yang bersekutu"
+    },
+    "34": {
+        "nama": "Saba\u2019",
+        "arti_nama": "Kaum Saba'"
+    },
+    "35": {
+        "nama": "Fatir",
+        "arti_nama": "Pencipta"
+    },
+    "36": {
+        "nama": "Ya Sin",
+        "arti_nama": "Nama surat sesuai ayat pertama"
+    },
+    "37": {
+        "nama": "As-Saffat",
+        "arti_nama": "Barisan-barisan"
+    },
+    "38": {
+        "nama": "Sad",
+        "arti_nama": "Nama surat sesuai ayat pertama"
+    },
+    "39": {
+        "nama": "Az-Zumar",
+        "arti_nama": "Rombongan-rombongan"
+    },
+    "40": {
+        "nama": "Ghafir",
+        "arti_nama": "Yang mengampuni"
+    },
+    "41": {
+        "nama": "Fussilat",
+        "arti_nama": "Yang dijelaskan"
+    },
+    "42": {
+        "nama": "Asy-Syura",
+        "arti_nama": "Musyawarah"
+    },
+    "43": {
+        "nama": "Az-Zukhruf",
+        "arti_nama": "Perhiasan"
+    },
+    "44": {
+        "nama": "Ad-Dukhan",
+        "arti_nama": "Kabut"
+    },
+    "45": {
+        "nama": "Al-Jasiyah",
+        "arti_nama": "Yang bertekuk lutut"
+    },
+    "46": {
+        "nama": "Al-Ahqaf",
+        "arti_nama": "Bukit-bukit pasir"
+    },
+    "47": {
+        "nama": "Muhammad",
+        "arti_nama": "Nama dari nabi terakhir"
+    },
+    "48": {
+        "nama": "Al-Fath",
+        "arti_nama": "Kemenangan"
+    },
+    "49": {
+        "nama": "Al-Hujurat",
+        "arti_nama": "Kamar-kamar"
+    },
+    "50": {
+        "nama": "Qaf",
+        "arti_nama": "Qaaf"
+    },
+    "51": {
+        "nama": "Az-Zariyat",
+        "arti_nama": "Angin yang menerbangkan"
+    },
+    "52": {
+        "nama": "At-Tur",
+        "arti_nama": "Bukit"
+    },
+    "53": {
+        "nama": "An-Najm",
+        "arti_nama": "Bintang"
+    },
+    "54": {
+        "nama": "Al-Qamar",
+        "arti_nama": "Bulan"
+    },
+    "55": {
+        "nama": "Ar-Rahman",
+        "arti_nama": "Yang Maha Pemurah"
+    },
+    "56": {
+        "nama": "Al-Waqi\u2019ah",
+        "arti_nama": "Hari Kiamat"
+    },
+    "57": {
+        "nama": "Al-Hadid",
+        "arti_nama": "Besi"
+    },
+    "58": {
+        "nama": "Al-Mujadilah",
+        "arti_nama": "Wanita yang mengajukan gugatan"
+    },
+    "59": {
+        "nama": "Al-Hasyr",
+        "arti_nama": "Pengusiran"
+    },
+    "60": {
+        "nama": "Al-Mumtahanah",
+        "arti_nama": "Wanita yang diuji"
+    },
+    "61": {
+        "nama": "As-Saff",
+        "arti_nama": "Satu barisan"
+    },
+    "62": {
+        "nama": "Al-Jumu\u2019ah",
+        "arti_nama": "Hari Jum\u2019at"
+    },
+    "63": {
+        "nama": "Al-Munafiqun",
+        "arti_nama": "Orang-orang yang munafik"
+    },
+    "64": {
+        "nama": "At-Tagabun",
+        "arti_nama": "Hari dinampakkan kesalahan-kesalahan"
+    },
+    "65": {
+        "nama": "At-Talaq",
+        "arti_nama": "Talak"
+    },
+    "66": {
+        "nama": "At-Tahrim",
+        "arti_nama": "Mengharamkan"
+    },
+    "67": {
+        "nama": "Al-Mulk",
+        "arti_nama": "Kerajaan"
+    },
+    "68": {
+        "nama": "Al-Qalam",
+        "arti_nama": "Pena"
+    },
+    "69": {
+        "nama": "Al-Haqqah",
+        "arti_nama": "Hari kiamat"
+    },
+    "70": {
+        "nama": "Al-Ma\u2019arij",
+        "arti_nama": "Tempat naik"
+    },
+    "71": {
+        "nama": "Nuh",
+        "arti_nama": "Nabi Nuh"
+    },
+    "72": {
+        "nama": "Al-Jinn",
+        "arti_nama": "Bermakna salah satu jenis mahluk gaib"
+    },
+    "73": {
+        "nama": "Al-Muzzammil",
+        "arti_nama": "Orang yang berselimut"
+    },
+    "74": {
+        "nama": "Al-Muddassir",
+        "arti_nama": "Orang yang berkemul"
+    },
+    "75": {
+        "nama": "Al-Qiyamah",
+        "arti_nama": "Kiamat"
+    },
+    "76": {
+        "nama": "Al-Insan",
+        "arti_nama": "Manusia"
+    },
+    "77": {
+        "nama": "Al-Mursalat",
+        "arti_nama": "Malaikat-Malaikat Yang Diutus"
+    },
+    "78": {
+        "nama": "An-Naba\u2019",
+        "arti_nama": "Berita besar"
+    },
+    "79": {
+        "nama": "An-Nazi\u2019at",
+        "arti_nama": "Malaikat-Malaikat Yang Mencabut"
+    },
+    "80": {
+        "nama": "Abasa",
+        "arti_nama": "Ia Bermuka masam"
+    },
+    "81": {
+        "nama": "At-Takwir",
+        "arti_nama": "Menggulung"
+    },
+    "82": {
+        "nama": "Al-Infitar",
+        "arti_nama": "Terbelah"
+    },
+    "83": {
+        "nama": "Al-Tatfif",
+        "arti_nama": "Orang-orang yang curang"
+    },
+    "84": {
+        "nama": "Al-Insyiqaq",
+        "arti_nama": "Terbelah"
+    },
+    "85": {
+        "nama": "Al-Buruj",
+        "arti_nama": "Gugusan bintang"
+    },
+    "86": {
+        "nama": "At-Tariq",
+        "arti_nama": "Yang datang di malam hari"
+    },
+    "87": {
+        "nama": "Al-A\u2019la",
+        "arti_nama": "Yang paling tinggi"
+    },
+    "88": {
+        "nama": "Al-Gasyiyah",
+        "arti_nama": "Hari Pembalasan"
+    },
+    "89": {
+        "nama": "Al-Fajr",
+        "arti_nama": "Fajar"
+    },
+    "90": {
+        "nama": "Al-Balad",
+        "arti_nama": "Negeri"
+    },
+    "91": {
+        "nama": "Asy-Syams",
+        "arti_nama": "Matahari"
+    },
+    "92": {
+        "nama": "Al-Lail",
+        "arti_nama": "Malam"
+    },
+    "93": {
+        "nama": "Ad-Duha",
+        "arti_nama": "Waktu matahari sepenggalahan naik (Dhuha)"
+    },
+    "94": {
+        "nama": "Al-Insyirah",
+        "arti_nama": "Melapangkan"
+    },
+    "95": {
+        "nama": "At-Tin",
+        "arti_nama": "Buah Tin"
+    },
+    "96": {
+        "nama": "Al-'Alaq",
+        "arti_nama": "Segumpal Darah"
+    },
+    "97": {
+        "nama": "Al-Qadr",
+        "arti_nama": "Kemuliaan"
+    },
+    "98": {
+        "nama": "Al-Bayyinah",
+        "arti_nama": "Pembuktian"
+    },
+    "99": {
+        "nama": "Az-Zalzalah",
+        "arti_nama": "Kegoncangan"
+    },
+    "100": {
+        "nama": "Al-'Adiyat",
+        "arti_nama": "Berlari kencang"
+    },
+    "101": {
+        "nama": "Al-Qari'ah",
+        "arti_nama": "Hari Kiamat"
+    },
+    "102": {
+        "nama": "At-Takasur",
+        "arti_nama": "Bermegah-megahan"
+    },
+    "103": {
+        "nama": "Al-'Asr",
+        "arti_nama": "Masa/Waktu"
+    },
+    "104": {
+        "nama": "Al-Humazah",
+        "arti_nama": "Pengumpat"
+    },
+    "105": {
+        "nama": "Al-Fil",
+        "arti_nama": "Gajah"
+    },
+    "106": {
+        "nama": "Quraisy",
+        "arti_nama": "Suku Quraisy"
+    },
+    "107": {
+        "nama": "Al-Ma\u2019un",
+        "arti_nama": "Barang-barang yang berguna"
+    },
+    "108": {
+        "nama": "Al-Kautsar",
+        "arti_nama": "Nikmat yang berlimpah"
+    },
+    "109": {
+        "nama": "Al-Kafirun",
+        "arti_nama": "Orang-orang kafir"
+    },
+    "110": {
+        "nama": "An-Nasr",
+        "arti_nama": "Pertolongan"
+    },
+    "111": {
+        "nama": "Al-Masad / Al-Lahab",
+        "arti_nama": " Sabut / Gejolak Api"
+    },
+    "112": {
+        "nama": "Al-Ikhlas",
+        "arti_nama": "Ikhlas"
+    },
+    "113": {
+        "nama": "Al-Falaq",
+        "arti_nama": "Waktu Subuh"
+    },
+    "114": {
+        "nama": "An-Nas",
+        "arti_nama": "Umat Manusia"
+    }
+}
