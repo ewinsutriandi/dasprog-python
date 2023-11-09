@@ -1,14 +1,14 @@
 import json
 import random
 
-file = open("surat_alquran.json",encoding="utf8") # load file
+file = open("11 Quran mini game\surat_alquran.json",encoding="utf8") # load file
 daftar_surat = json.load(file) # konversi isi file (json) ke dictionary
 
 daftar_surat = list(daftar_surat.values()) # konversi dictionary menjadi list
 surat_10 = random.sample(daftar_surat,k=10) # ambil sampel 10 surat secara acak
 
 pilihan_salah = []
-for surat in surat_10:
+for surat in daftar_surat:
     pilihan_salah.append(surat['arti_nama'])
 
 skor = 0
@@ -16,6 +16,7 @@ for surat in surat_10:
     print(f"Arti nama dari surat {surat['nama']} adalah?: ") # cetak pertanyaan
     # siapkan pilihan jawaban
     jawaban_benar = surat['arti_nama']
+    pilihan_salah.remove(jawaban_benar) # buang jawaban benar dari list
     pilihan_jawaban = random.sample(pilihan_salah,k=2) # tambahkan jawaban salah
     pilihan_jawaban.append(jawaban_benar) # tambahkan jawaban benar
     random.shuffle(pilihan_jawaban) # acak urutan
