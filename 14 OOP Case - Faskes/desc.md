@@ -1,0 +1,19 @@
+Faskes
+- Pasien
+    - nik
+    - nama
+    - datang
+    - Pasien klinik
+        - klinik tujuan
+        - tekanan darah
+        - dokter
+        - diagnosa
+        - resep
+    - Pasien rawat inap
+        - kamar
+        - visitasi
+            - jam visit
+            - jenis visit
+            - petugas
+            - dokter
+            - catatan
