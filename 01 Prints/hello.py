@@ -1,5 +1,0 @@
-print("badannya besar, tangannya kecil", end=" ")
-print("ia bertaring, kukunya runcing")
-print("tak makan sayur, makannya daging")
-print("kalau mengaum, yang lain langsung mundur")
-print()
