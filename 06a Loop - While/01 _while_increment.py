@@ -1,8 +1,8 @@
 '''
-Contoh while Loop yang berhenti karena kondisi tertentu tercapai 
+Contoh while loop untuk mengulang eksekusi kode sebanyak n kali dengan teknik increment  
 '''
-bil = 0
+bil = 1
 batas = 5
 while bil <= batas:
-    print(f"nilai bil {bil}")
+    print(f"Ini perulangan yang ke-{bil}")
     bil = bil + 1
