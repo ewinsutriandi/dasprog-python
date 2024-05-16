@@ -4,6 +4,7 @@ bil = random.randint(1,100) # menghasilkan bil acak pd rentang 1 s.d 100
 tebakan_benar = False
 tebakan_maks = 7
 jum_tebakan = 0
+
 print("Komputer telah memilih sebuah bilangan secara acak dari 1 s.d 100")
 
 while not tebakan_benar and jum_tebakan < tebakan_maks:
