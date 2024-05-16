@@ -9,6 +9,7 @@ seperti pada ilustrasi berikut
 * * * * * * * * *      9
 dst
 '''
+
 n = int(input("Masukkan sebuah bilangan bulat: "))
 
 for i in range(n): # perulangan sejumlah baris yang diinginkan
