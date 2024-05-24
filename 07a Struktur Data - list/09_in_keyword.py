@@ -1,4 +1,4 @@
-# Memeriksa apakah list mengandung elemen tertentu dengan in
+# Memeriksa apakah list mengandung elemen tertentu dengan keyword in
 
 buah_buahan = ["Apel","Belimbing","Pepaya","Delima","Pisang","Jambu"]
 ada_durian = "Durian" in buah_buahan
