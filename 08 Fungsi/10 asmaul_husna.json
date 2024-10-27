@@ -1,0 +1,499 @@
+{
+    "asmaul_husna": [
+        {
+            "Nama": "Ar Rahman",
+            "Arab": "الرحمن",
+            "Indonesia": "Yang Maha Pengasih"
+        },
+        {
+            "Nama": "Ar Rahiim",
+            "Arab": "الرحيم",
+            "Indonesia": "Yang Maha Penyayang"
+        },
+        {
+            "Nama": "Al Malik",
+            "Arab": "الملك",
+            "Indonesia": "Yang Maha Merajai/Memerintah"
+        },
+        {
+            "Nama": "Al Quddus",
+            "Arab": "القدوس",
+            "Indonesia": "Yang Maha Suci"
+        },
+        {
+            "Nama": "As Salaam",
+            "Arab": "السلام",
+            "Indonesia": "Yang Maha Memberi Kesejahteraan"
+        },
+        {
+            "Nama": "Al Mu`min",
+            "Arab": "المؤمن",
+            "Indonesia": "Yang Maha Memberi Keamanan"
+        },
+        {
+            "Nama": "Al Muhaimin",
+            "Arab": "المهيمن",
+            "Indonesia": "Yang Maha Pemelihara"
+        },
+        {
+            "Nama": "Al `Aziiz",
+            "Arab": "العزيز",
+            "Indonesia": "Yang Maha Perkasa"
+        },
+        {
+            "Nama": "Al Jabbar",
+            "Arab": "الجبار",
+            "Indonesia": "Yang Memiliki Mutlak Kegagahan"
+        },
+        {
+            "Nama": "Al Mutakabbir",
+            "Arab": "المتكبر",
+            "Indonesia": "Yang Maha Megah, Yang Memiliki Kebesaran"
+        },
+        {
+            "Nama": "Al Khaliq",
+            "Arab": "الخالق",
+            "Indonesia": "Yang Maha Pencipta"
+        },
+        {
+            "Nama": "Al Baari`",
+            "Arab": "البارئ",
+            "Indonesia": "Yang Maha Melepaskan (Membuat, Membentuk, Menyeimbangkan)"
+        },
+        {
+            "Nama": "Al Mushawwir",
+            "Arab": "المصور",
+            "Indonesia": "Yang Maha Membentuk Rupa (makhluk-Nya)"
+        },
+        {
+            "Nama": "Al Ghaffaar",
+            "Arab": "الغفار",
+            "Indonesia": "Yang Maha Pengampun"
+        },
+        {
+            "Nama": "Al Qahhaar",
+            "Arab": "القهار",
+            "Indonesia": "Yang Maha Memaksa"
+        },
+        {
+            "Nama": "Al Wahhaab",
+            "Arab": "الوهاب",
+            "Indonesia": "Yang Maha Pemberi Karunia"
+        },
+        {
+            "Nama": "Ar Razzaaq",
+            "Arab": "الرزاق",
+            "Indonesia": "Yang Maha Pemberi Rezeki"
+        },
+        {
+            "Nama": "Al Fattaah",
+            "Arab": "الفتاح",
+            "Indonesia": "Yang Maha Pembuka Rahmat"
+        },
+        {
+            "Nama": "Al `Aliim",
+            "Arab": "العليم",
+            "Indonesia": "Yang Maha Mengetahui (Memiliki Ilmu)"
+        },
+        {
+            "Nama": "Al Qaabidh",
+            "Arab": "القابض",
+            "Indonesia": "Yang Maha Menyempitkan (makhluk-Nya)"
+        },
+        {
+            "Nama": "Al Baasith",
+            "Arab": "الباسط",
+            "Indonesia": "Yang Maha Melapangkan (makhluk-Nya)"
+        },
+        {
+            "Nama": "Al Khaafidh",
+            "Arab": "الخافض",
+            "Indonesia": "Yang Maha Merendahkan (makhluk-Nya)"
+        },
+        {
+            "Nama": "Ar Raafi`",
+            "Arab": "الرافع",
+            "Indonesia": "Yang Maha Meninggikan (makhluk-Nya)"
+        },
+        {
+            "Nama": "Al Mu`izz",
+            "Arab": "المعز",
+            "Indonesia": "Yang Maha Memuliakan (makhluk-Nya)"
+        },
+        {
+            "Nama": "Al Mudzil",
+            "Arab": "المذل",
+            "Indonesia": "Yang Maha Menghinakan (makhluk-Nya)"
+        },
+        {
+            "Nama": "Al Samii`",
+            "Arab": "السميع",
+            "Indonesia": "Yang Maha Mendengar"
+        },
+        {
+            "Nama": "Al Bashiir",
+            "Arab": "البصير",
+            "Indonesia": "Yang Maha Melihat"
+        },
+        {
+            "Nama": "Al Hakam",
+            "Arab": "الحكم",
+            "Indonesia": "Yang Maha Menetapkan"
+        },
+        {
+            "Nama": "Al `Adl",
+            "Arab": "العدل",
+            "Indonesia": "Yang Maha Adil"
+        },
+        {
+            "Nama": "Al Lathiif",
+            "Arab": "اللطيف",
+            "Indonesia": "Yang Maha Lembut"
+        },
+        {
+            "Nama": "Al Khabiir",
+            "Arab": "الخبير",
+            "Indonesia": "Yang Maha Mengenal"
+        },
+        {
+            "Nama": "Al Haliim",
+            "Arab": "الحليم",
+            "Indonesia": "Yang Maha Penyantun"
+        },
+        {
+            "Nama": "Al `Azhiim",
+            "Arab": "العظيم",
+            "Indonesia": "Yang Maha Agung"
+        },
+        {
+            "Nama": "Al Ghafuur",
+            "Arab": "الغفور",
+            "Indonesia": "Yang Maha Pengampun"
+        },
+        {
+            "Nama": "As Syakuur",
+            "Arab": "الشكور",
+            "Indonesia": "Yang Maha Pembalas Budi (Menghargai)"
+        },
+        {
+            "Nama": "Al `Aliy",
+            "Arab": "العلى",
+            "Indonesia": "Yang Maha Tinggi"
+        },
+        {
+            "Nama": "Al Kabiir",
+            "Arab": "الكبير",
+            "Indonesia": "Yang Maha Besar"
+        },
+        {
+            "Nama": "Al Hafizh",
+            "Arab": "الحفيظ",
+            "Indonesia": "Yang Maha Memelihara"
+        },
+        {
+            "Nama": "Al Muqiit",
+            "Arab": "المقيت",
+            "Indonesia": "Yang Maha Pemberi Kecukupan"
+        },
+        {
+            "Nama": "Al Hasiib",
+            "Arab": "الحسيب",
+            "Indonesia": "Yang Maha Membuat Perhitungan"
+        },
+        {
+            "Nama": "Al Jaliil",
+            "Arab": "الجليل",
+            "Indonesia": "Yang Maha Mulia"
+        },
+        {
+            "Nama": "Al Kariim",
+            "Arab": "الكريم",
+            "Indonesia": "Yang Maha Mulia"
+        },
+        {
+            "Nama": "Ar Raqiib",
+            "Arab": "الرقيب",
+            "Indonesia": "Yang Maha Mengawasi"
+        },
+        {
+            "Nama": "Al Mujiib",
+            "Arab": "المجيب",
+            "Indonesia": "Yang Maha Mengabulkan"
+        },
+        {
+            "Nama": "Al Waasi`",
+            "Arab": "الواسع",
+            "Indonesia": "Yang Maha Luas"
+        },
+        {
+            "Nama": "Al Hakiim",
+            "Arab": "الحكيم",
+            "Indonesia": "Yang Maha Maka Bijaksana"
+        },
+        {
+            "Nama": "Al Waduud",
+            "Arab": "الودود",
+            "Indonesia": "Yang Maha Mengasihi"
+        },
+        {
+            "Nama": "Al Majiid",
+            "Arab": "المجيد",
+            "Indonesia": "Yang Maha Mulia"
+        },
+        {
+            "Nama": "Al Baa`its",
+            "Arab": "الباعث",
+            "Indonesia": "Yang Maha Membangkitkan"
+        },
+        {
+            "Nama": "As Syahiid",
+            "Arab": "الشهيد",
+            "Indonesia": "Yang Maha Menyaksikan"
+        },
+        {
+            "Nama": "Al Haqq",
+            "Arab": "الحق",
+            "Indonesia": "Yang Maha Benar"
+        },
+        {
+            "Nama": "Al Wakiil",
+            "Arab": "الوكيل",
+            "Indonesia": "Yang Maha Memelihara"
+        },
+        {
+            "Nama": "Al Qawiyyu",
+            "Arab": "القوى",
+            "Indonesia": "Yang Maha Kuat"
+        },
+        {
+            "Nama": "Al Matiin",
+            "Arab": "المتين",
+            "Indonesia": "Yang Maha Kokoh"
+        },
+        {
+            "Nama": "Al Waliyy",
+            "Arab": "الولى",
+            "Indonesia": "Yang Maha Melindungi"
+        },
+        {
+            "Nama": "Al Hamiid",
+            "Arab": "الحميد",
+            "Indonesia": "Yang Maha Terpuji"
+        },
+        {
+            "Nama": "Al Muhshii",
+            "Arab": "المحصى",
+            "Indonesia": "Yang Maha Mengkalkulasi"
+        },
+        {
+            "Nama": "Al Mubdi`",
+            "Arab": "المبدئ",
+            "Indonesia": "Yang Maha Memulai"
+        },
+        {
+            "Nama": "Al Mu`iid",
+            "Arab": "المعيد",
+            "Indonesia": "Yang Maha Mengembalikan Kehidupan"
+        },
+        {
+            "Nama": "Al Muhyii",
+            "Arab": "المحيى",
+            "Indonesia": "Yang Maha Menghidupkan"
+        },
+        {
+            "Nama": "Al Mumiitu",
+            "Arab": "المميت",
+            "Indonesia": "Yang Maha Mematikan"
+        },
+        {
+            "Nama": "Al Hayyu",
+            "Arab": "الحي",
+            "Indonesia": "Yang Maha Hidup"
+        },
+        {
+            "Nama": "Al Qayyuum",
+            "Arab": "القيوم",
+            "Indonesia": "Yang Maha Mandiri"
+        },
+        {
+            "Nama": "Al Waajid",
+            "Arab": "الواجد",
+            "Indonesia": "Yang Maha Penemu"
+        },
+        {
+            "Nama": "Al Maajid",
+            "Arab": "الماجد",
+            "Indonesia": "Yang Maha Mulia"
+        },
+        {
+            "Nama": "Al Wahiid",
+            "Arab": "الواحد",
+            "Indonesia": "Yang Maha Tunggal"
+        },
+        {
+            "Nama": "Al Ahad",
+            "Arab": "الاحد",
+            "Indonesia": "Yang Maha Esa"
+        },
+        {
+            "Nama": "As Shamad",
+            "Arab": "الصمد",
+            "Indonesia": "Yang Maha Dibutuhkan, Tempat Meminta"
+        },
+        {
+            "Nama": "Al Qaadir",
+            "Arab": "القادر",
+            "Indonesia": "Yang Maha Menentukan, Maha Menyeimbangkan"
+        },
+        {
+            "Nama": "Al Muqtadir",
+            "Arab": "المقتدر",
+            "Indonesia": "Yang Maha Berkuasa"
+        },
+        {
+            "Nama": "Al Muqaddim",
+            "Arab": "المقدم",
+            "Indonesia": "Yang Maha Mendahulukan"
+        },
+        {
+            "Nama": "Al Mu`akkhir",
+            "Arab": "المؤخر",
+            "Indonesia": "Yang Maha Mengakhirkan"
+        },
+        {
+            "Nama": "Al Awwal",
+            "Arab": "الأول",
+            "Indonesia": "Yang Maha Awal"
+        },
+        {
+            "Nama": "Al Aakhir",
+            "Arab": "الأخر",
+            "Indonesia": "Yang Maha Akhir"
+        },
+        {
+            "Nama": "Az Zhaahir",
+            "Arab": "الظاهر",
+            "Indonesia": "Yang Maha Nyata"
+        },
+        {
+            "Nama": "Al Baathin",
+            "Arab": "الباطن",
+            "Indonesia": "Yang Maha Ghaib"
+        },
+        {
+            "Nama": "Al Waali",
+            "Arab": "الوالي",
+            "Indonesia": "Yang Maha Memerintah"
+        },
+        {
+            "Nama": "Al Muta`aalii",
+            "Arab": "المتعالي",
+            "Indonesia": "Yang Maha Tinggi"
+        },
+        {
+            "Nama": "Al Barri",
+            "Arab": "البر",
+            "Indonesia": "Yang Maha Penderma"
+        },
+        {
+            "Nama": "At Tawwaab",
+            "Arab": "التواب",
+            "Indonesia": "Yang Maha Penerima Tobat"
+        },
+        {
+            "Nama": "Al Muntaqim",
+            "Arab": "المنتقم",
+            "Indonesia": "Yang Maha Pemberi Balasan"
+        },
+        {
+            "Nama": "Al Afuww",
+            "Arab": "العفو",
+            "Indonesia": "Yang Maha Pemaaf"
+        },
+        {
+            "Nama": "Ar Ra`uuf",
+            "Arab": "الرؤوف",
+            "Indonesia": "Yang Maha Pengasuh"
+        },
+        {
+            "Nama": "Malikul Mulk",
+            "Arab": "مالك الملك",
+            "Indonesia": "Yang Maha Penguasa Kerajaan (Semesta)"
+        },
+        {
+            "Nama": "Dzul Jalaali Wal Ikraam",
+            "Arab": "ذو الجلال و الإكرام",
+            "Indonesia": "Yang Maha Pemilik Kebesaran dan Kemuliaan"
+        },
+        {
+            "Nama": "Al Muqsith",
+            "Arab": "المقسط",
+            "Indonesia": "Yang Maha Pemberi Keadilan"
+        },
+        {
+            "Nama": "Al Jamii`",
+            "Arab": "الجامع",
+            "Indonesia": "Yang Maha Mengumpulkan"
+        },
+        {
+            "Nama": "Al Ghaniyy",
+            "Arab": "الغنى",
+            "Indonesia": "Yang Maha Kaya"
+        },
+        {
+            "Nama": "Al Mughnii",
+            "Arab": "المغنى",
+            "Indonesia": "Yang Maha Pemberi Kekayaan"
+        },
+        {
+            "Nama": "Al Maani",
+            "Arab": "المانع",
+            "Indonesia": "Yang Maha Mencegah"
+        },
+        {
+            "Nama": "Ad Dhaar",
+            "Arab": "الضار",
+            "Indonesia": "Yang Maha Penimpa Kemudharatan"
+        },
+        {
+            "Nama": "An Nafii`",
+            "Arab": "النافع",
+            "Indonesia": "Yang Maha Memberi Manfaat"
+        },
+        {
+            "Nama": "An Nuur",
+            "Arab": "النور",
+            "Indonesia": "Yang Maha Bercahaya (Menerangi, Memberi Cahaya)"
+        },
+        {
+            "Nama": "Al Haadii",
+            "Arab": "الهادئ",
+            "Indonesia": "Yang Maha Pemberi Petunjuk"
+        },
+        {
+            "Nama": "Al Baadii",
+            "Arab": "البديع",
+            "Indonesia": "Yang Indah Tidak Mempunyai Banding"
+        },
+        {
+            "Nama": "Al Baaqii",
+            "Arab": "الباقي",
+            "Indonesia": "Yang Maha Kekal"
+        },
+        {
+            "Nama": "Al Waarits",
+            "Arab": "الوارث",
+            "Indonesia": "Yang Maha Pewaris"
+        },
+        {
+            "Nama": "Ar Rasyiid",
+            "Arab": "الرشيد",
+            "Indonesia": "Yang Maha Pandai Menunjukkan Jalan yang Benar"
+        },
+        {
+            "Nama": "As Shabuur",
+            "Arab": "الصبور",
+            "Indonesia": "Yang Maha Sabar"
+        }
+    ]
+}

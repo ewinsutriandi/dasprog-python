@@ -1,49 +1,58 @@
+'''
+Contoh penggunaan fungsi pada permainan sederhana 1
+Game Tebak Angka
+'''
 import random
 
-def tampilkan_petunjuk_bermain():
+def tampilkan_deskripsi_permainan():
     ''' Fungsi untuk menampilkan petunjuk bermain'''
+    print("---------------------------------------------------")
     print("GAME TEBAK BILANGAN")
     print("Komputer akan memilih sebuah bilangan secara acak dari 1 s.d 100")
     print("Anda diminta untuk menebak bilangan tersebut")
     input("Tekan ENTER untuk melanjutkan ")
+    print("---------------------------------------------------")
 
 def tampilkan_statistik_permainan(menang,kalah):
     print("PERMAINAN BERAKHIR")
     print(f"Total bermain: {menang + kalah}")
     print(f"menang: {menang}, kalah: {kalah}")
 
+def tampilkan_petunjuk_permainan(maks_tebakan):
+    print(f"Bilangan rahasia telah dipilih")
+    print(f"Anda memiliki {maks_tebakan} kesempatan menebak")
+    
+
 def mulai_permainan():
     maks_tebakan = 7
-    bil_rahasia = 0
-    jum_tebakan = 0
     bil_rahasia = random.randint(1,100)
     jum_tebakan = 0
     tebakan_benar = False
-    print("---------------------------------------------------")
-    print(f"Komputer telah memilih sebuah bilangan rahasia")
-    print(f"Anda mendapatkan {maks_tebakan} kesempatan menebak")
-    print("---------------------------------------------------")
-    while not tebakan_benar and jum_tebakan <= maks_tebakan:
+    tampilkan_petunjuk_permainan(maks_tebakan)
+    while not tebakan_benar and jum_tebakan < maks_tebakan:
         tebakan = int(input(f"Kesempatan menebak ke-{jum_tebakan+1}. Masukkan tebakan anda: "))
         jum_tebakan += 1
         if tebakan == bil_rahasia:
             tebakan_benar = True
             print(f"Anda berhasil menebak pada tebakan ke {jum_tebakan}")
         else:
-            if tebakan < bil_rahasia:
-                print("Tebakan anda terlalu kecil")
-            else:
-                print("Tebakan anda terlalu besar")
+            sisa_tebakan = maks_tebakan - jum_tebakan
+            if sisa_tebakan > 0:
+                if tebakan < bil_rahasia:
+                    print("Terlalu kecil",end=". ")
+                else:
+                    print("Terlalu besar",end=". ")
+                print(f"Sisa kesempatan: {sisa_tebakan} kali")
     if tebakan_benar:
         return True
     else:
-        print(f"Anda gagal menebak, bilangan yang benar: {bil_rahasia}")
+        print(f"Kesempatan anda habis, bilangan yang benar: {bil_rahasia}")
         return False
 
 def main():
     menang = 0
     kalah = 0
-    tampilkan_petunjuk_bermain() # tampilkan petunjuk bermain sebelum permainan dimulai (cukup sekali)
+    tampilkan_deskripsi_permainan() # tampilkan petunjuk bermain sebelum permainan dimulai (cukup sekali)
     main_lagi = True
     while main_lagi:
         menang = mulai_permainan()
@@ -53,4 +62,5 @@ def main():
             kalah += 1
         main_lagi = input("Tekan Y kemudian ENTER untuk lanjut bermain, lainnya untuk berhenti ").upper() == "Y"
     tampilkan_statistik_permainan(menang,kalah)
+
 main()
