@@ -13,10 +13,10 @@ def load_asmaul_husna():
     except FileNotFoundError:
         print("File tidak ditemukan")
 
-def tampilkan_deksripsi_permainan():
+def tampilkan_deksripsi_permainan(n):
     ''' Fungsi untuk menampilkan petunjuk bermain'''
     print("ARTI ASMAUL HUSNA")
-    print("Komputer akan memilih 10 nama dari 99 asmaul husna")
+    print(f"Komputer akan memilih {n} nama dari 99 asmaul husna")
     print("Pilih arti yang benar untuk tiap nama")
     input("Tekan ENTER untuk memulai ")
 
@@ -54,6 +54,7 @@ def input_jawaban():
 def mulai_permainan():
     asmaul_husna = load_asmaul_husna()
     jum_pertanyaan = 5
+    tampilkan_deksripsi_permainan(jum_pertanyaan)
     benar = 0
     salah = 0
     terpilih = random.sample(asmaul_husna,jum_pertanyaan)
