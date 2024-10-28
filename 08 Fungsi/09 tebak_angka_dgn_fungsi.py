@@ -50,17 +50,17 @@ def mulai_permainan():
         return False
 
 def main():
-    menang = 0
-    kalah = 0
+    jum_menang = 0
+    jum_kalah = 0
     tampilkan_deskripsi_permainan() # tampilkan petunjuk bermain sebelum permainan dimulai (cukup sekali)
     main_lagi = True
     while main_lagi:
         menang = mulai_permainan()
         if menang:
-            menang += 1
+            jum_menang += 1
         else:
-            kalah += 1
+            jum_kalah += 1
         main_lagi = input("Tekan Y kemudian ENTER untuk lanjut bermain, lainnya untuk berhenti ").upper() == "Y"
-    tampilkan_statistik_permainan(menang,kalah)
+    tampilkan_statistik_permainan(jum_menang,jum_kalah)
 
 main()
