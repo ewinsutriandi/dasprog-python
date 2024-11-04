@@ -1,0 +1,38 @@
+[
+    {
+      "kode mata kuliah": "IF2001",
+      "mata kuliah": "Dasar Pemrograman",
+      "sks": 3,
+      "nilai": "A"
+    },
+    {
+      "kode mata kuliah": "IF2002",
+      "mata kuliah": "Algoritma dan Struktur Data",
+      "sks": 3,
+      "nilai": "B"
+    },
+    {
+      "kode mata kuliah": "MA004",
+      "mata kuliah": "Kalkulus I",
+      "sks": 3,
+      "nilai": "B"
+    },
+    {
+      "kode mata kuliah": "MA005",
+      "mata kuliah": "Aljabar Linear",
+      "sks": 3,
+      "nilai": "A"
+    },
+    {
+      "kode mata kuliah": "DU007",
+      "mata kuliah": "Bahasa Inggris",
+      "sks": 2,
+      "nilai": "A"
+    },
+    {
+      "kode mata kuliah": "IF2007",
+      "mata kuliah": "Etika Profesi",
+      "sks": 2,
+      "nilai": "D"
+    }
+]
