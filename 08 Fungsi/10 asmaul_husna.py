@@ -7,7 +7,7 @@ import random
 
 def load_asmaul_husna():
     try:
-        with open('08 Fungsi/10 asmaul_husna.json') as f:
+        with open('08 Fungsi/10 asmaul_husna.json',encoding='utf-8') as f:
             d = json.load(f)
             return d["asmaul_husna"]
     except FileNotFoundError:
