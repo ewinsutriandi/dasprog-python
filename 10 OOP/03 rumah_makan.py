@@ -1,15 +1,14 @@
-import datetime
 class Menu:
     def __init__(self,nama,jenis,harga):
         self.nama = nama
         self.jenis = jenis
         self.harga = harga
-    
+    def __repr__(self):
+        return f"{self.nama} seharga {self.harga}"
 class Pesanan:
     def __init__(self,menu,jumlah):
         self.menu = menu
         self.jumlah = jumlah
-        self.waktu_pesan = datetime.datetime.now()
     
     def total_harga(self):
         return self.jumlah * self.menu.harga
@@ -17,9 +16,7 @@ class Pesanan:
 class Tamu:
     def __init__(self,meja):
         self.meja = meja
-        self.datang = datetime.datetime.now()
-        self.cara_bayar = None
-        self.waktu_bayar = None
+        self.sudah_bayar = False
         self.pesanan = []
     
     def pesan(self,menu,jumlah):
@@ -32,15 +29,28 @@ class Tamu:
             total += p.total_harga()
         return total
     
-    def bayar(self,cara):
-        self.waktu_bayar = datetime.datetime.now()
-        self.cara_bayar = cara
+    def bayar(self):
+        self.sudah_bayar = True
 
     def __repr__(self):
-        datang = f"Pelanggan pada {self.meja}, datang {self.datang} \n"
+        meja = f"Pelanggan pada meja {self.meja} \n"
         pesanan = f"{len(self.pesanan)} pesanan, total belanja: {self.total_belanja()}\n"
-        if self.cara_bayar != None:
-            bayar = f"Pembayaran pada {self.waktu_bayar}, {self.cara_bayar}"
+        if self.sudah_bayar:
+            bayar = f"Sudah dibayar"
         else:
             bayar = "Belum dibayar"
-        return  datang + pesanan + bayar
+        return  meja + pesanan + bayar
+
+# Load Menu
+import json
+def load_menu():
+    daftar_menu = []
+    with open("10 OOP/03 menu_rumah_makan.json") as f:
+        json_menu =  json.load(f) 
+        for menu in json_menu:
+            m = Menu(menu["nama"],menu["jenis"],menu["harga"])
+            daftar_menu.append(m)
+    return daftar_menu
+
+menu = load_menu()
+print(menu)
