@@ -29,4 +29,5 @@ class Lingkaran:
     def luas(self):
         return 3.14 * self.jari_jari * self.jari_jari
 
-# copy paste kode untuk setiap class ke chatGPT, minta chatGPT menjelaskan kode tersebut kemudian memberikan contoh cara penggunaannya
+# copy paste kode untuk setiap class ke chatGPT, 
+# minta chatGPT menjelaskan kode tersebut kemudian memberikan contoh cara penggunaannya

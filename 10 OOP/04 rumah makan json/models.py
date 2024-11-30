@@ -41,13 +41,16 @@ class Tamu:
             bayar = "Belum dibayar"
         return  meja + pesanan + bayar
 
-nasi_ayam_goreng = Menu("Nasi ayam goreng","makanan",17000)
-nasi_ayam_geprek = Menu("Nasi ayam geprek","makanan",21000)
-es_teh = Menu("Es teh manis","minuman",4500)
-es_kelapa = Menu("Es kelapa muda","minuman",6000)
+# Load Menu
+import json
+def load_menu():
+    daftar_menu = []
+    with open("10 OOP/03 menu_rumah_makan.json") as f:
+        json_menu =  json.load(f) 
+        for menu in json_menu:
+            m = Menu(menu["nama"],menu["jenis"],menu["harga"])
+            daftar_menu.append(m)
+    return daftar_menu
 
-tamu = Tamu("meja 1")
-tamu.pesan(nasi_ayam_goreng,1)
-tamu.pesan(nasi_ayam_geprek,2)
-tamu.pesan(es_teh,3)
-print(tamu)
+menu = load_menu()
+print(menu)

@@ -22,4 +22,5 @@ class Siswa:
 upin = Siswa("Upin",45,138)
 print(upin.kategori_bmi())
 
-# copy paste kode untuk setiap class ke chatGPT, minta chatGPT menjelaskan kode tersebut kemudian memberikan contoh cara penggunaannya
+# copy paste kode untuk setiap class ke chatGPT, 
+# minta chatGPT menjelaskan kode tersebut kemudian memberikan contoh cara penggunaannya

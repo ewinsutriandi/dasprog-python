@@ -3,7 +3,6 @@ import random
 
 file = open("11 Quran mini game/surat_alquran.json")
 daftar_surat = json.load(file) # load json file ke dalam dictionary
-
 daftar_surat = list(daftar_surat.values()) # konversi dictionary ke list
 surat_terpilih = random.sample(daftar_surat, k=10) # ambil 10 surat secara acak
 
