@@ -14,6 +14,8 @@ def tampilkan_halaman_utama():
            tambah_menu()
         elif pilihan == "2":
             catat_pesanan_tamu()
+        elif pilihan == "3":
+            catat_pembayaran()
     
 def tambah_menu():
     print('TAMBAH MENU BARU')
@@ -50,7 +52,6 @@ def catat_pesanan_tamu():
             db.create_pesanan(pesanan) 
 
 def pilih_dari_daftar_menu(tipe):
-    daftar_menu = []
     daftar_menu = db.list_menu_by_jenis(tipe)
     print("Pilih berdasarkan ID menu")
     for menu in daftar_menu:
@@ -61,6 +62,30 @@ def pilih_dari_daftar_menu(tipe):
     jumlah = int(input("Masukkan jumlah pesanan: "))
     pesanan = Pesanan(menu_terpilih,jumlah)
     return pesanan
+
+def catat_pembayaran():
+    daftar_tamu = []
+    daftar_tamu = db.list_tamu_belum_bayar()
+    if len(daftar_tamu) > 0:
+        for tamu in daftar_tamu:
+            print(f"ID {tamu.id} pada meja {tamu.meja}")
+        tamu_id = int(input("Masukkan ID tamu: "))
+        tamu = db.tamu_by_id(tamu_id)
+        tampilkan_daftar_pesanan(tamu)
+    else:
+        print("Semua tamu sudah membayar")
+
+def tampilkan_daftar_pesanan(tamu):
+    print(f"Daftar pesanan tamu pada meja {tamu.meja}:")
+    daftar_pesanan = db.list_pesanan_by_tamu_id(tamu.id)
+    if len(daftar_pesanan) > 0:
+        total_bayar = 0
+        for pesanan in daftar_pesanan:
+            print(f"{pesanan.jumlah} {pesanan.menu.nama} @ {pesanan.menu.harga:,.0f} total {pesanan.total_harga():,.0f}" )
+            total_bayar += pesanan.total_harga()
+        print(f"TOTAL YG HARUS DIBAYAR: {total_bayar:,.0f}")
+    else:
+        print("Tamu belum memiliki pesanan")
 
 tampilkan_halaman_utama()
 print("PROGRAM SELESAI")

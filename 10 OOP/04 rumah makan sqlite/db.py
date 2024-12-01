@@ -56,6 +56,39 @@ def create_tamu(meja):
     conn.close()
     return tamu_id
 
+def tamu_by_id(id):
+    sql = """
+        SELECT id,meja,sdh_bayar from TAMU where id = ?
+    """
+    conn = get_conn()
+    cursor = conn .cursor()
+    cursor.execute(sql,[id])
+    row = cursor.fetchone()
+    tamu = None
+    if row:
+        tamu = Tamu(row[1])
+        tamu.id = row[0]
+        tamu.sudah_bayar = row[2]
+    conn.close()
+    return tamu
+
+def list_tamu_belum_bayar():
+    sql = """
+        SELECT id,meja,sdh_bayar from TAMU where sdh_bayar = 0
+    """
+    conn = get_conn()
+    cursor = conn.cursor()
+    cursor.execute(sql)
+    rows = cursor.fetchall()
+    daftar_tamu = []
+    for row in rows:
+        tamu = Tamu(row[1])
+        tamu.id = row[0]
+        tamu.sudah_bayar = row[2]
+        daftar_tamu.append(tamu)
+    conn.close()
+    return daftar_tamu
+
 def create_pesanan(pesanan):
     sql = """
         INSERT INTO PESANAN (tamu_id,nama,jenis,harga,jumlah) VALUES (?,?,?,?,?) 
@@ -63,7 +96,22 @@ def create_pesanan(pesanan):
     conn = get_conn()
     cursor = conn .cursor()
     params= [pesanan.tamu_id,pesanan.menu.nama,pesanan.menu.jenis,pesanan.menu.harga,pesanan.jumlah]
-    print("params:",params)
     cursor.execute(sql,params)
     conn.commit()
     conn.close()
+
+def list_pesanan_by_tamu_id(tamu_id):
+    sql = """
+        SELECT nama,jenis,harga,jumlah from PESANAN where tamu_id = ?
+    """
+    conn = get_conn()
+    cursor = conn.cursor()
+    cursor.execute(sql,[tamu_id])
+    rows = cursor.fetchall()
+    daftar_pesanan = []
+    for row in rows:
+        menu = Menu(row[0],row[1],row[2])
+        pesanan = Pesanan(menu,row[3])
+        daftar_pesanan.append(pesanan)
+    conn.close()
+    return daftar_pesanan
