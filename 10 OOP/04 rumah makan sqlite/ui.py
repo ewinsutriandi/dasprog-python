@@ -72,6 +72,14 @@ def catat_pembayaran():
         tamu_id = int(input("Masukkan ID tamu: "))
         tamu = db.tamu_by_id(tamu_id)
         tampilkan_daftar_pesanan(tamu)
+        print('Pilih menu')
+        print("1. Update status bayar  2. Batal  ")
+        respon = input("Masukkan pilihan: ")
+        if respon == "1":
+            db.update_status_bayar(tamu_id)
+            print("Status pembayaran sudah diupdate")
+        else:
+            print("Pembayaran dibatalkan")
     else:
         print("Semua tamu sudah membayar")
 

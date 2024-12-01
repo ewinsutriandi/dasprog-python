@@ -115,3 +115,13 @@ def list_pesanan_by_tamu_id(tamu_id):
         daftar_pesanan.append(pesanan)
     conn.close()
     return daftar_pesanan
+
+def update_status_bayar(tamu_id):
+    sql = """
+        UPDATE TAMU set sdh_bayar=1 where id = ?
+    """
+    conn = get_conn()
+    cursor = conn.cursor()
+    cursor.execute(sql,[tamu_id])
+    conn.commit()
+    conn.close()
