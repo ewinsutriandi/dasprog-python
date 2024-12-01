@@ -52,5 +52,5 @@ def bersihkan_data_pesanan():
     conn.commit()
     conn.close()
 
-#inisialisasi_db()
-bersihkan_data_pesanan()
+inisialisasi_db()
+#bersihkan_data_pesanan()
