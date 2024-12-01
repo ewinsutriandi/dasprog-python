@@ -1,20 +1,25 @@
 class Menu:
-    def __init__(self,nama,jenis,harga):
+    def __init__(self,nama,jenis,harga,id=0):
+        self.id = id
         self.nama = nama
         self.jenis = jenis
         self.harga = harga
     def __repr__(self):
-        return f"{self.nama} seharga {self.harga}"
+        return f"{self.nama} @ {self.harga:,.0f}"
+
 class Pesanan:
-    def __init__(self,menu,jumlah):
+    def __init__(self,menu,jumlah,tamu_id=0,id=0):
+        self.id = id
         self.menu = menu
         self.jumlah = jumlah
-    
+        self.tamu_id = tamu_id
+        
     def total_harga(self):
         return self.jumlah * self.menu.harga
 
 class Tamu:
     def __init__(self,meja):
+        self.id = id
         self.meja = meja
         self.sudah_bayar = False
         self.pesanan = []
@@ -34,23 +39,10 @@ class Tamu:
 
     def __repr__(self):
         meja = f"Pelanggan pada meja {self.meja} \n"
-        pesanan = f"{len(self.pesanan)} pesanan, total belanja: {self.total_belanja()}\n"
+        pesanan = f"{len(self.pesanan)} pesanan, total belanja: {self.total_belanja():,.0f}\n"
         if self.sudah_bayar:
             bayar = f"Sudah dibayar"
         else:
             bayar = "Belum dibayar"
         return  meja + pesanan + bayar
 
-# Load Menu
-import json
-def load_menu():
-    daftar_menu = []
-    with open("10 OOP/03 menu_rumah_makan.json") as f:
-        json_menu =  json.load(f) 
-        for menu in json_menu:
-            m = Menu(menu["nama"],menu["jenis"],menu["harga"])
-            daftar_menu.append(m)
-    return daftar_menu
-
-menu = load_menu()
-print(menu)
