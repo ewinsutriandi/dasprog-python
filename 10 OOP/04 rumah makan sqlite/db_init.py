@@ -27,14 +27,16 @@ def inisialisasi_db():
         CREATE TABLE PESANAN
         (
             id INTEGER PRIMARY KEY NOT NULL,
+            tamu_id INTEGER NOT NULL,
             nama TEXT NOT NULL,
             harga INTEGER NOT NULL,
-            jenis TEXT NOT NULL 
+            jenis TEXT NOT NULL,
+            jumlah INTEGER NOT NULL 
         )
         """
     conn.execute(sql_create_menu)
     conn.execute(sql_create_tamu)
-    #conn.execute(sql_create_pesanan)
+    conn.execute(sql_create_pesanan)
     conn.close()
 
 def bersihkan_data_pesanan():
@@ -51,4 +53,4 @@ def bersihkan_data_pesanan():
     conn.close()
 
 #inisialisasi_db()
-#bersihkan_data_pesanan()
+bersihkan_data_pesanan()

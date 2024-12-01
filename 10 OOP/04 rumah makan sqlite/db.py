@@ -58,12 +58,12 @@ def create_tamu(meja):
 
 def create_pesanan(pesanan):
     sql = """
-        INSERT INTO PESANAN (tamu_id,nama,jenis,harga,jumlah) VALUES (?,?,?) 
+        INSERT INTO PESANAN (tamu_id,nama,jenis,harga,jumlah) VALUES (?,?,?,?,?) 
     """
     conn = get_conn()
     cursor = conn .cursor()
-    cursor.execute(sql,[pesanan.tamuid,pesanan.nama,pesanan.jenis,pesanan.harga,pesanan.jumlah])
+    params= [pesanan.tamu_id,pesanan.menu.nama,pesanan.menu.jenis,pesanan.menu.harga,pesanan.jumlah]
+    print("params:",params)
+    cursor.execute(sql,params)
     conn.commit()
     conn.close()
-
-# inisialisasi_db()
