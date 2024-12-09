@@ -5,15 +5,17 @@ def get_conn():
     conn = sqlite3.connect('warung_makan.db')
     return conn
 
-def create_menu(nama,jenis,harga):
+def create_menu(menu):
     sql = """
         INSERT INTO MENU (nama,jenis,harga) VALUES (?,?,?) 
     """
     conn = get_conn()
     cursor = conn .cursor()
-    cursor.execute(sql,[nama,jenis,harga])
+    cursor.execute(sql,[menu.nama,menu.jenis,menu.harga])
+    menu_id = cursor.lastrowid
     conn.commit()
     conn.close()
+    return menu_id
 
 def menu_by_id(id):
     sql = """
@@ -44,16 +46,20 @@ def list_menu_by_jenis(jenis):
     conn.close()
     return daftar_menu
 
-def create_tamu(meja):
+def create_tamu(tamu):
     sql = """
         INSERT INTO TAMU (meja) VALUES (?) 
     """
     conn = get_conn()
-    cursor = conn .cursor()
-    cursor.execute(sql,[meja])
+    cursor = conn.cursor()
+    cursor.execute(sql,[tamu.meja])
     tamu_id = cursor.lastrowid
     conn.commit()
     conn.close()
+    if len(tamu.pesanan) > 0:
+        for pesanan in tamu.pesanan:
+            pesanan.tamu_id = tamu_id
+            create_pesanan(pesanan)
     return tamu_id
 
 def tamu_by_id(id):
@@ -94,7 +100,7 @@ def create_pesanan(pesanan):
         INSERT INTO PESANAN (tamu_id,nama,jenis,harga,jumlah) VALUES (?,?,?,?,?) 
     """
     conn = get_conn()
-    cursor = conn .cursor()
+    cursor = conn.cursor()
     params= [pesanan.tamu_id,pesanan.menu.nama,pesanan.menu.jenis,pesanan.menu.harga,pesanan.jumlah]
     cursor.execute(sql,params)
     conn.commit()

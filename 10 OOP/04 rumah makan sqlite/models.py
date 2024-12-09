@@ -24,8 +24,8 @@ class Tamu:
         self.sudah_bayar = False
         self.pesanan = []
     
-    def pesan(self,menu,jumlah):
-        pesanan_baru = Pesanan(menu,jumlah)
+    def pesan(self,pesanan):
+        pesanan_baru = Pesanan(pesanan.menu,pesanan.jumlah)
         self.pesanan.append(pesanan_baru)
 
     def total_belanja(self):

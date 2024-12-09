@@ -26,12 +26,13 @@ def tambah_menu():
         jenis = "Makanan"
     else:
         jenis = "Minuman"
-    db.create_menu(nama,jenis,harga)
+    menu = Menu(nama,jenis,harga)
+    db.create_menu(menu)
 
 def catat_pesanan_tamu():
     meja = input("Nomor meja: ")
+    tamu = Tamu(meja)
     pilihan = 0
-    daftar_pesanan = []
     while pilihan != "3":
         print('Pilih menu')
         print("1. Menu makanan  2. Menu minuman   3. Selesai")
@@ -42,14 +43,10 @@ def catat_pesanan_tamu():
         elif pilihan == "2":
             pesanan = pilih_dari_daftar_menu("Minuman")
         if pesanan:
-            daftar_pesanan.append(pesanan)
+            tamu.pesan(pesanan)
             print(f"{pesanan.jumlah} {pesanan.menu.nama} @ {pesanan.menu.harga}: total {pesanan.total_harga()}")
-    print("jumlah pesanan:",len(daftar_pesanan))
-    if len(daftar_pesanan) > 0 :
-        tamu_id = db.create_tamu(meja)
-        for pesanan in daftar_pesanan:
-            pesanan.tamu_id = tamu_id
-            db.create_pesanan(pesanan) 
+    print("jumlah pesanan:",len(tamu.pesanan))
+    db.create_tamu(tamu)
 
 def pilih_dari_daftar_menu(tipe):
     daftar_menu = db.list_menu_by_jenis(tipe)
